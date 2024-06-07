@@ -30,35 +30,6 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  final String title;
-
-  const MyHomePage({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            // Button onPressed functionality
-          },
-          child: const Text('Click Me'),
-        ),
-      ),
-    );
-  }
-}
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
